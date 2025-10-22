@@ -1,6 +1,8 @@
 Redis Info
 ==========
 
+![Screenshot of the example configuration in action](screenshot.png)
+
 Redis Info is an easy to configure, web-based realtime monitoring tool for Redis servers written in PHP.
  It provides nice front-end for access to statistics and server status.
 
