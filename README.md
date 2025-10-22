@@ -6,14 +6,12 @@ Redis Info
 Redis Info is an easy to configure, web-based realtime monitoring tool for Redis servers written in PHP.
  It provides nice front-end for access to statistics and server status.
 
-Installing
-=============
+## Installing
 Download and place all files to your webserver.
 
 It needs at least PHP `>=5.2` with `ext-json` installed.
 
-Configuration
-=============
+## Configuration
 
 You can add or edit your Redis servers using `config.ini` file.
 
@@ -31,8 +29,7 @@ port = 6501
 auth = foobared
 ```
 
-Starting
-========
+## Starting
 
 Start a local PHP webserver with the following command:
 
@@ -40,8 +37,7 @@ Start a local PHP webserver with the following command:
 php -S localhost:2002 -t /Users/u12021/Projects/redis-info
 ```
 
-Bookmarklet
-===========
+## Bookmarklet
 
 The following JS code can be used as a bookmarklet script, to open a monitoring popup.
 
