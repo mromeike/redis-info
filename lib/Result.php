@@ -85,7 +85,7 @@ class Result {
         $databases = new ArrayObject();
         foreach ($this->getResponse() as $value) {
             $line = new ArrayObject(explode(':', $value, 2));
-            if (strpos($line->offsetGet(0), self::DB_KEY) !== FALSE) {
+            if (strpos($line->offsetGet(0), self::DB_KEY) === 0) {
                 preg_match(self::DB_PATTERN, $line->offsetGet(1), $matches);
                 $databases->offsetSet($line->offsetGet(0), new ArrayObject($matches));
             }
